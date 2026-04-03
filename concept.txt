@@ -1,0 +1,18 @@
+You ask → AI answers from memory → done
+
+You ask → AI thinks → AI uses a tool → reads result
+→ thinks again → uses another tool → thinks again
+→ gives final answer
+
+
+1. REASON  → "User wants AI news. I should search first."
+2. ACT     → calls web_search("latest AI news 2026")
+3. OBSERVE → reads the search results
+4. REASON  → "I should read the full article now."
+5. ACT     → calls scrape_website("https://...")
+6. OBSERVE → reads the article content
+7. REASON  → "Now I have enough. I'll summarize and save."
+8. ACT     → calls save_to_file("summary...", "ai_news.txt")
+9. ANSWER  → "Done! I saved the summary to ai_news.txt"
+
+This loop runs automatically. You don't control it — Gemini decides each step.

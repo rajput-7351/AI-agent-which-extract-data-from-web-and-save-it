@@ -6,8 +6,7 @@ Built with LangGraph, Google Gemini, and Streamlit.
 
 ---
 
-## Demo
-
+## Demo 
 ![ResearchAgent Demo](assets/demo.png)
 ![ResearchAgent Demo](assets/demo2.png)
 ![ResearchAgent Demo](assets/demo3.png)
